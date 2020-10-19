@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/*------------Headings-------------------*/
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*-----------------------Title section------------------------*/
+
+/*-------------------------navbar----------------------*/
+.container-fluid {
+  padding:7% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/*---------------------------Title--------------------------*/
+
+#title {
+  text-align: left;
+  background-color: #81b214;
+  color: #FFF;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.iconopage{
+  width: 50px;
+}
+
+.title-image {
+  width: 90%;
+  position: absolute;
+  right: 10%;
+}
+
+
+/*---------------------Features------------------------*/
+#features {
+  background-color: #FFFFFF;
+  position: relative;
+  z-index: 1;
+}
+
+.p-features {
+  color: #8f8f8f;
+}
+
+.features-col {
+  text-align: center;
+  padding: 4%;
+}
+
+.features-icon {
+  color: #206a5d;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #81b214;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/*---------------------Productos-----------------------------*/
+#productos {
+  background-color: #81b214;
+  color: #FFF;
+}
+
+.producto-image {
+  width: 100%;
+}
+
+.producto-title{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.producto-texto{
+  color: #FFF;
+  font-size: 1.3rem;
+}
+/*-----------------Pricing-----------------------------*/
+#pricing {
+  padding: 100px;
+}
+
+.mayor-high{
+  line-height: 2.35;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-title{
+  font-size: 1.5rem;
+}
+
+/*-------------------Call to action----------------------*/
+
+#cta{
+  background-color: #ef8172;
+  color: #FFFFFF;
+}
+
+/*------------------Footer---------------------------------*/
+
+#footer{
+  background-color: #FFF;
+  padding: 5% 15% 2%;
+}
+
+.social-media{
+  margin: 20px 10px;
+}
+
+.enlace-contacto{
+  color: #000;
+}
+
+/*-------------------Media query --------------------------------*/
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
