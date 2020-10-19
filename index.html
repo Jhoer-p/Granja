@@ -34,13 +34,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Contacto</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#productos">Productos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#cta">Nosotros</a>
+                <a class="nav-link" href="#nosotros">Nosotros</a>
               </li>
             </ul>
           </div>
@@ -98,29 +98,42 @@
         <ol class="carousel-indicators">
           <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
           <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+          <li data-target="#testimonial-carousel" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active container-fluid">
-              <div class="row align-items-center">
-                <div class="col-lg-6">
-                  <img class="producto-image" src="images/lechuga.jpg" alt="Lechuga organica">
-                </div>
-                <div class="col-lg-6">
-                  <h2 class="producto-title">Lechuga</h2>
-                  <p class="producto-texto">Lechuga 100% organica y seleccionada</p>
-                  <h3 class="producto-precio">$1000/unidad</h3>
-                </div>
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <img class="producto-image" src="images/lechuga.jpg" alt="Lechuga organica">
               </div>
+              <div class="col-lg-6 colu-producto">
+                <h2 class="producto-title">Lechuga</h2>
+                <p class="producto-texto">Lechuga 100% organica y seleccionada</p>
+                <h3 class="producto-precio">$1000/unidad</h3>
+              </div>
+            </div>
           </div>
           <div class="carousel-item container-fluid">
             <div class="row align-items-center">
               <div class="col-lg-6">
                 <img class="producto-image" src="images/arveja.jpg" alt="Arveja organica">
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 colu-producto">
                 <h2 class="producto-title">Arveja</h2>
                 <p class="producto-texto">Arveja seleccionada y de la mejor calidad</p>
-                <h3 class="producto-precio">$2000/libra</h3>
+                <h3 class="producto-precio">$4000/libra</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item container-fluid">
+            <div class="row align-items-center">
+              <div class="col-lg-6">
+                <img class="producto-image" src="images/quinua.jpg" alt="Quinua organica">
+              </div>
+              <div class="col-lg-6 colu-producto">
+                <h2 class="producto-title">Quinoa</h2>
+                <p class="producto-texto">Quinoa 100% organica y seleccionada del campo directo a tu hogar</p>
+                <h3 class="producto-precio">$8000/libra</h3>
               </div>
             </div>
           </div>
@@ -142,83 +155,52 @@
 
     <!-- Pricing -->
 
-    <section id="pricing">
-
-      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
-      <div class="row">
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="price-title">Chihuahua</h3>
+    <section id="contacto">
+      <div class="container-fluid">
+        <h2 class="section-heading">Contactanos</h2>
+        <div class="card">
+          <div class="row align-items-center">
+            <div class="pricing-column col-lg-8">
+              <h4>Escribenos, Llamanos o Pregunta por promociones</h4>
             </div>
-            <div class="card-body mayor-high">
-              <h2 class="price-text">Free</h2>
-              <p>5 Matches Per Day</p>
-              <p>10 Messages Per Day</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-outline-dark btn-lg btn-block">Sign Up</button>
+            <div class="pricing-column col-lg-4">
+              <button type="button" class="btn btn-outline-success btn-lg btn-block"><i class="social-media fab fa-2x fa-whatsapp align-middle"></i> 3115228637</button>
+              <button type="button" class="btn btn-outline-success btn-lg btn-block"><i class="social-media fab fa-2x fa-whatsapp align-middle"></i> 3138358807</button>
             </div>
           </div>
         </div>
 
-        <div class="pricing-column col-lg-4 col-md-6">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="price-title">Labrador</h3>
+        <div class="card">
+          <div class="row align-items-center">
+            <div class="pricing-column col-lg-8">
+              <h4>Siguenos en redes sociales para que no te pierdas de nuevos productos y promociones</h4>
             </div>
-            <div class="card-body mayor-high">
-              <h2 class="price-text">$49 / mo</h2>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
+            <div class="pricing-column col-lg-4">
+              <button type="button" class="btn btn-outline-primary btn-block"><i class="social-media fab fa-3x fa-facebook-f"></i></button>
+              <button type="button" class="btn btn-outline-danger btn-block"><i class="social-media fab fa-3x fa-instagram"></i></button>
             </div>
           </div>
         </div>
-
-        <div class="pricing-column col-lg-4">
-          <div class="card">
-            <div class="card-header">
-              <h3 class="price-title">Mastiff</h3>
-            </div>
-            <div class="card-body">
-              <h2 class="price-text">$99 / mo</h2>
-              <p>Pirority Listing</p>
-              <p>Unlimited Matches</p>
-              <p>Unlimited Messages</p>
-              <p>Unlimited App Usage</p>
-              <button type="button" class="btn btn-dark btn-lg btn-block">Sign Up</button>
-            </div>
-          </div>
-        </div>
-
       </div>
-
     </section>
 
-    <!-- Call to Action -->
+    <!-- Nosotros -->
 
-    <section id="cta">
+    <section id="nosotros">
       <div class="container-fluid">
-
-
-        <h3 class="big-heading">Find the True Love of Your Dog's Life Today.</h3>
-        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"> </i> Download</button>
-        <button type="button" class="btn btn-light btn-lg download-button"><i class="fab fa-google-play"> </i> Download</button>
+        <h3 class="big-heading">Acerca de Nosotros</h3>
+        <p class="texto-nosotros">Hola somos</p>
       </div>
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
-      <a class="enlace-contacto" href="#"><i class="social-media fab fa-twitter"></i></a>
-      <a class="enlace-contacto" href="#"><i class="social-media fab fa-facebook-f"></i></a>
-      <a class="enlace-contacto" href="#"><i class="social-media fab fa-instagram"></i></a>
-      <a class="enlace-contacto" href="#"><i class="social-media fas fa-envelope"></i></a>
-      <p class="enlace-contacto" class="text-footer">© Copyright 2018 TinDog</p>
-      <div>Icons made by <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> and <a href="https://www.flaticon.es/autores/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from <a
-          href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <p class="enlace-contacto" class="text-footer">© Copyright 2020</p>
+      <div enlace-contacto>Icons made by
+        <a href="https://www.flaticon.com/authors/smalllikeart" title="smalllikeart">smalllikeart</a> and
+        <a href="https://www.flaticon.es/autores/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
   </body>
 

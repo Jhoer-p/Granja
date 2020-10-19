@@ -126,11 +126,12 @@ p{
   color: #FFF;
   font-size: 1.3rem;
 }
-/*-----------------Pricing-----------------------------*/
-#pricing {
-  padding: 100px;
-}
 
+.colu-producto{
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+/*-----------------Pricing-----------------------------*/
 .mayor-high{
   line-height: 2.35;
 }
@@ -148,26 +149,34 @@ p{
   font-size: 1.5rem;
 }
 
+.enlace{
+  color: #000;
+}
+
+.card{
+  padding: 1% 3%;
+  margin: 2%;
+}
 /*-------------------Call to action----------------------*/
 
-#cta{
-  background-color: #ef8172;
+#nosotros{
+  background-color: #81b214  ;
   color: #FFFFFF;
+}
+
+.texto-nosotros{
+  color: #FFF;
 }
 
 /*------------------Footer---------------------------------*/
 
 #footer{
   background-color: #FFF;
-  padding: 5% 15% 2%;
+  padding: 5% 15%;
 }
 
 .social-media{
   margin: 20px 10px;
-}
-
-.enlace-contacto{
-  color: #000;
 }
 
 /*-------------------Media query --------------------------------*/
@@ -178,5 +187,26 @@ p{
   .title-image{
     position: static;
     transform: rotate(0);
+  }
+
+  .nav-link{
+    font-size: 3rem;
+  }
+
+  .feature-title{
+    font-size: 2.5rem;
+  }
+
+  .p-features{
+    font-size: 2rem;
+  }
+
+  .producto-texto{
+    color: #FFF;
+    font-size: 2rem;
+  }
+
+  .enlace-contacto{
+    font-size: 1.8rem;
   }
 }
