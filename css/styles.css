@@ -26,10 +26,6 @@ h1, h2, h3, h4{
 
 /****************************Navbar***************************/
 
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 3rem;
@@ -46,13 +42,13 @@ h1, h2, h3, h4{
 }
 
 #title .container-fluidt{
-  padding: 3% 15% 7%;
+  padding: 4% 15% 2%;
 }
 
 #title {
   text-align: center;
   display: none;
-  background: linear-gradient(#FFFFFF,#f1f1e8 25%,#9CBF4E ,#81b214 65%);
+  background-color: #81b214;
   color: #206a5d;
 }
 
@@ -275,7 +271,7 @@ h6{
   }
 
   h4{
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .row-texto{
@@ -297,4 +293,7 @@ h6{
     display: block;
   }
 
+  .btn-block{
+    font-size: 2rem;
+  }
 }
