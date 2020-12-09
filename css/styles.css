@@ -1,16 +1,10 @@
 body {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6{
-  font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4{
   font-weight: 700;
-
-}
-
-p{
-  color: #8f8f8f;
 }
 
 /*------------Headings-------------------*/
@@ -20,67 +14,105 @@ p{
   line-height: 1.5;
 }
 
-.section-heading{
-  font-size: 3rem;
-  line-height: 1.5;
-}
+/*-----------------------Margins------------------------*/
 
-/*-----------------------Title section------------------------*/
-
-/*-------------------------navbar----------------------*/
 .container-fluid {
   padding:7% 15%;
 }
 
-.navbar {
-  padding: 0 0 4.5rem;
+.social-media{
+  margin: 20px 10px;
 }
 
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
-  font-weight: bold;
+/*--------------------------Seccion inicial titulo y shortcuts----------------------------*/
+
+#titulo{
+  background: linear-gradient(#FFFFFF,#f1f1e8 25%,#9CBF4E ,#81b214 65%);
+  color: #206a5d;
 }
 
-.nav-item {
-  padding: 0 18px;
+.container-fluid2{
+  padding: 4% 15%;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat";
+.titulo{
+  display: flex;
+  align-items: center;
+  height: 80px;
 }
 
-#title .container-fluid{
-  padding: 3% 15% 7%;
-}
-
-/*---------------------------Title--------------------------*/
-
-#title {
-  text-align: left;
-  background-color: #81b214;
-  color: #FFF;
-}
-
-.download-button {
-  margin: 5% 3% 5% 0;
+.icono-head{
+  text-align:left;
 }
 
 .iconopage{
-  width: 50px;
+  height: 80px;
+  margin-left: 24px;
 }
 
-.title-image {
-  width: 90%;
-  position: absolute;
-  right: 10%;
+.icon-head{
+  margin-left: 30px;
+  color: #206a5d;
 }
 
+.contacto-head{
+  text-align: right;
+  padding-top: 25px;
+}
 
+hr{
+  margin: 4% 0;
+  border-width: 1px;
+  border-color: #206a5d;
+  width: 100%;
+}
+
+.nav-link{
+  margin: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #206a5d;
+}
+
+a:hover{
+  color: #81b214;
+}
+
+.title {
+  color: #FFF;
+}
+
+.title .container-fluid{
+  padding:3% 15% 0;
+}
+
+h6{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+}
+
+.frase{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.farmericon{
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+.secondrow{
+  margin-top: 1rem;
+}
+
+/* .navbar{
+  display: none;
+} */
 /*---------------------Features------------------------*/
-#features {
-  background-color: #FFFFFF;
+.features {
+  background-color: #FFF;
   position: relative;
   z-index: 1;
 }
@@ -109,12 +141,22 @@ p{
 
 /*---------------------Productos-----------------------------*/
 #productos {
-  background-color: #81b214;
+  background-color: #206a5d;
   color: #FFF;
+  height: 35rem;
 }
 
-.producto-image {
+.rowproducto{
+  height: 22rem;
+}
+
+.producto-image{
   width: 100%;
+}
+
+.colu-producto{
+  padding-top: 7%;
+  padding-bottom: 7%;
 }
 
 .producto-title{
@@ -126,68 +168,48 @@ p{
   color: #FFF;
   font-size: 1.3rem;
 }
+/*-----------------Contactanos-----------------------------*/
 
-.colu-producto{
-  padding-top: 7%;
-  padding-bottom: 7%;
-}
-/*-----------------Pricing-----------------------------*/
-.mayor-high{
-  line-height: 2.35;
-}
-
-.pricing-column{
-  padding: 3% 2%;
-}
-
-.price-text{
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.price-title{
-  font-size: 1.5rem;
-}
-
-.enlace{
-  color: #000;
+#contacto{
+  color: #206a5d;
 }
 
 .card{
-  padding: 1% 3%;
-  margin: 2%;
+  padding: 10% 10%;
+  margin: 8% 2%;
 }
+
+.row-texto{
+  height: 7rem;
+}
+
+.btn-wa{
+  margin-top: 8px;
+}
+
 /*-------------------Call to action----------------------*/
 
 #nosotros{
   background-color: #81b214  ;
   color: #FFFFFF;
+
 }
 
 .texto-nosotros{
-  color: #FFF;
+  text-align: justify;
+  line-height: 1.4;
+  margin-top: 5%;
 }
 
 /*------------------Footer---------------------------------*/
 
 #footer{
   background-color: #FFF;
-  padding: 5% 15%;
-}
-
-.social-media{
-  margin: 20px 10px;
+  padding: 4% 15%;
 }
 
 /*-------------------Media query --------------------------------*/
 @media (max-width: 1028px){
-  #title{
-    text-align: center;
-  }
-  .title-image{
-    position: static;
-    transform: rotate(0);
-  }
 
   .nav-link{
     font-size: 3rem;
@@ -209,4 +231,51 @@ p{
   .enlace-contacto{
     font-size: 1.8rem;
   }
+
+  #productos{
+    height: auto;
+  }
+
+  .rowproducto{
+    height: auto;
+  }
+
+  h4{
+    font-size: 2rem;
+  }
+
+  .row-texto{
+    height: 9rem;
+  }
+
+  .container-fluid2{
+    display: none;
+  }
+
+  .farmericon{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    margin-top: 4rem;
+  }
+
+  /* .navbar{
+    display: block;
+  } */
+
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+  
 }
