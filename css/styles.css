@@ -32,8 +32,9 @@ h1, h2, h3, h4{
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
+  color: #206a5d;
 }
 
 .nav-item {
@@ -44,14 +45,20 @@ h1, h2, h3, h4{
   font-family: "Montserrat";
 }
 
-#title .container-fluid{
+#title .container-fluidt{
   padding: 3% 15% 7%;
 }
 
 #title {
-  text-align: left;
-  color: #206a5d;
+  text-align: center;
   display: none;
+  background: linear-gradient(#FFFFFF,#f1f1e8 25%,#9CBF4E ,#81b214 65%);
+  color: #206a5d;
+}
+
+.iconopage1{
+  height: 70px;
+  margin-right: 10px;
 }
 
 /*--------------------------Seccion inicial titulo y shortcuts----------------------------*/
@@ -239,7 +246,7 @@ h6{
 @media (max-width: 1028px){
 
   .nav-link1{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .feature-title{
@@ -275,7 +282,7 @@ h6{
     height: 9rem;
   }
 
-  .container-fluid2{
+  #titulo{
     display: none;
   }
 
