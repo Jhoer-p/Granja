@@ -173,20 +173,15 @@ h6{
 #productos {
   background-color: #206a5d;
   color: #FFF;
-  height: 35rem;
+  height: 41.8rem;
 }
 
 .rowproducto{
-  height: 22rem;
+  height: 30rem;
 }
 
 .producto-image{
   width: 100%;
-}
-
-.colu-producto{
-  padding-top: 7%;
-  padding-bottom: 7%;
 }
 
 .producto-title{
