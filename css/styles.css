@@ -1,0 +1,294 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4{
+  font-weight: 700;
+}
+
+/*------------Headings-------------------*/
+.big-heading{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/*-----------------------Margins------------------------*/
+
+.container-fluid {
+  padding:7% 15%;
+}
+
+.social-media{
+  margin: 20px 10px;
+}
+
+/****************************Navbar***************************/
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: bold;
+  color: #206a5d;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link1 {
+  font-family: "Montserrat";
+}
+
+#title .container-fluidt{
+  padding: 4% 15% 2%;
+}
+
+#title {
+  text-align: center;
+  display: none;
+  background-color: #81b214;
+  color: #206a5d;
+}
+
+.iconopage1{
+  height: 70px;
+  margin-right: 10px;
+}
+
+/*--------------------------Seccion inicial titulo y shortcuts----------------------------*/
+
+#titulo{
+  background: linear-gradient(#FFFFFF,#f1f1e8 25%,#9CBF4E ,#81b214 65%);
+  color: #206a5d;
+}
+
+.container-fluid2{
+  padding: 4% 15%;
+}
+
+.titulo{
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.icono-head{
+  text-align:left;
+}
+
+.iconopage{
+  height: 80px;
+  margin-left: 24px;
+}
+
+.icon-head{
+  margin-left: 30px;
+  color: #206a5d;
+}
+
+.contacto-head{
+  text-align: right;
+  padding-top: 25px;
+}
+
+hr{
+  margin: 4% 0;
+  border-width: 1px;
+  border-color: #206a5d;
+  width: 100%;
+}
+
+.nav-link{
+  margin: 0 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #206a5d;
+}
+
+a:hover{
+  color: #81b214;
+}
+
+.title {
+  color: #FFF;
+}
+
+.title .container-fluid{
+  padding:3% 15% 0;
+}
+
+h6{
+  font-family: "Ubuntu";
+  font-size: 2.8rem;
+}
+
+.frase{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.farmericon{
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+.secondrow{
+  margin-top: 1rem;
+}
+
+/*---------------------Features------------------------*/
+.features {
+  background-color: #FFF;
+  position: relative;
+  z-index: 1;
+}
+
+.p-features {
+  color: #8f8f8f;
+}
+
+.features-col {
+  text-align: center;
+  padding: 4%;
+}
+
+.features-icon {
+  color: #206a5d;
+  margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+  color: #81b214;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/*---------------------Productos-----------------------------*/
+#productos {
+  background-color: #206a5d;
+  color: #FFF;
+  height: 41.8rem;
+}
+
+.rowproducto{
+  height: 30rem;
+}
+
+.producto-image{
+  width: 100%;
+}
+
+.producto-title{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.producto-texto{
+  color: #FFF;
+  font-size: 1.3rem;
+}
+/*-----------------Contactanos-----------------------------*/
+
+#contacto{
+  color: #206a5d;
+}
+
+.card{
+  padding: 10% 10%;
+  margin: 8% 2%;
+}
+
+.row-texto{
+  height: 7rem;
+}
+
+.btn-wa{
+  margin-top: 8px;
+}
+
+/*-------------------Call to action----------------------*/
+
+#nosotros{
+  background-color: #81b214  ;
+  color: #FFFFFF;
+
+}
+
+.texto-nosotros{
+  text-align: justify;
+  line-height: 1.4;
+  margin-top: 5%;
+}
+
+/*------------------Footer---------------------------------*/
+
+#footer{
+  background-color: #FFF;
+  padding: 4% 15%;
+}
+
+/*-------------------Media query --------------------------------*/
+@media (max-width: 1028px){
+
+  .nav-link1{
+    font-size: 2.5rem;
+  }
+
+  .feature-title{
+    font-size: 2.5rem;
+  }
+
+  .p-features{
+    font-size: 2rem;
+  }
+
+  .producto-texto{
+    color: #FFF;
+    font-size: 2rem;
+  }
+
+  .enlace-contacto{
+    font-size: 1.8rem;
+  }
+
+  #productos{
+    height: auto;
+  }
+
+  .rowproducto{
+    height: auto;
+  }
+
+  h4{
+    font-size: 2.2rem;
+  }
+
+  .row-texto{
+    height: 9rem;
+  }
+
+  #titulo{
+    display: none;
+  }
+
+  .farmericon{
+    width: 100%;
+    position: relative;
+    top: 10px;
+    margin-top: 4rem;
+  }
+
+  #title{
+    display: block;
+  }
+
+  .btn-block{
+    font-size: 2rem;
+  }
+}
